@@ -4,7 +4,7 @@
 
 # Load Generic Libraries
 # shellcheck disable=SC1091
-. /dev/stdin <<< "$(curl -s https://raw.githubusercontent.com/juan131/bash-libraries/master/lib/liblog.bash)"
+. /dev/stdin <<< "$(curl -s https://raw.githubusercontent.com/johnsmclay/bash-libraries/main/lib/liblog.bash)"
 
 # Functions
 

@@ -4,9 +4,9 @@ A set of useful Bash libraries
 
 ## Current libraries
 
-- [liblog.bash](https://github.com/juan131/bash-libraries/blob/master/lib/liblog.bash)
-- [libfs.bash](https://github.com/juan131/bash-libraries/blob/master/lib/libfs.bash)
-- [libos.bash](https://github.com/juan131/bash-libraries/blob/master/lib/libos.bash)
+- [liblog.bash](https://github.com/johnsmclay/bash-libraries/blob/main/lib/liblog.bash)
+- [libfs.bash](https://github.com/johnsmclay/bash-libraries/blob/main/lib/libfs.bash)
+- [libos.bash](https://github.com/johnsmclay/bash-libraries/blob/main/lib/libos.bash)
 
 ## Use
 
@@ -14,7 +14,7 @@ Load the desired library on you Bash scripts as follows:
 
 ```bash
 ...
-. /dev/stdin <<< "$(curl -s https://raw.githubusercontent.com/juan131/bash-libraries/master/lib/liblog.bash)"
+. /dev/stdin <<< "$(curl -s https://raw.githubusercontent.com/johnsmclay/bash-libraries/main/lib/liblog.bash)"
 ...
 ```
 
